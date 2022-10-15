@@ -36,7 +36,6 @@ body {
 }
 header{
     background-color: dimgray;
-    size-adjust: 50px;
 }
 nav a:hover {
     background-color: dimgray;
