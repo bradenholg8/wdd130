@@ -2,11 +2,16 @@
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 35px;
   }
 nav a { 
     text-align: center;
     background-color: gold;
+    font-size: 35px;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
     }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -16,6 +21,7 @@ nav a {
     }
 main section {
     text-align: center;
+    box-sizing: border-box;
     }
 #background {
         height: 725px;
@@ -23,9 +29,14 @@ main section {
     }
 body {
     background-color: dimgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: dimgray;
+    size-adjust: 50px;
 }
 nav a:hover {
     background-color: dimgray;
@@ -35,6 +46,10 @@ nav a:hover {
     background-color: dimgray;
     background-color: gold;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: dimgray;
@@ -42,38 +57,48 @@ nav a:hover {
 }
 .msg {
     background-color: dimgray;
+    padding: 35px;
 }
 footer {
     background-color: dimgray;
     background-color: gold;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .msg h2 {
     background-color: gold;
+    margin: 0;
 }
 .home-title {
     background-color: gold;
+    margin-top: 10px;
 }
 h4 {
     background-color: gold;
+    margin: 0;
 }
 .msg p {
     background-color: gold;
+    padding-bottom: 15px;
 }
 footer a {
     background-color: gold;
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding-top: 15px;
 }
 footer a:hover {
     background-color: gold;
 }
 .icon {
     width: 80px;
+    padding-top: 0;
 }
 .logo {
     width: 80px;
 }
 #hero-img {
-    width: 100%
+    width: 50%
 }
 footer p {
     font-size: 1.2em;
