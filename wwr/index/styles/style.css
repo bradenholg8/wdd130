@@ -30,7 +30,7 @@ main section img {
 }
 
 body {
-    background-color: #336699;
+    background-color: white;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -288,4 +288,29 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+}
+
+.green-river-card {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.colorado-river-card {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.snake-river-card {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.green-river-card, .colorado-river-card, .snake-river-card {
+    margin: 100px 0;
 }
