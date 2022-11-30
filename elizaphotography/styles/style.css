@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
-    font-family: bilbo swash 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
     background-color: #E4C5A6
 }
 
@@ -26,6 +26,7 @@ h2 {
 
 h4.home-title{
     color: white;
+    font-family:'Courier New', Courier, monospace
 }
 
 main section {
