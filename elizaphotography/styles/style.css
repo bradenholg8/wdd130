@@ -155,8 +155,20 @@ footer {
     display:grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 25% 25% 25% 25%;
+    grid-row-gap: 40px;
     text-size-adjust: auto;
     margin: 100px;
+    justify-items: center;
+}
+
+.contact-me-title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-bottom: 40px;
+}
+.contact-me-links {
+    grid-column: 1/4;
+    grid-row: 2/3;
 }
 
 .gallery-title {
@@ -164,4 +176,7 @@ footer {
     display: flex;
 }
 
+.msg {
+    margin-left: 30px;
+}
 
