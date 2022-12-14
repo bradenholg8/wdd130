@@ -5,11 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #A19178   ;
-  --secondary-color: #4B4626 ;
+  --primary-color: #E4C5A6;
+  --secondary-color: #8C3712;
   --accent1-color: #433100;
-  --accent2-color: #8C3712;
-  --accent3-color: #E4C5A6;
+  --accent2-color: #4B4626;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Bilbo Swash Caps";
